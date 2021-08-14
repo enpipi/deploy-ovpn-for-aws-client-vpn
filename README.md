@@ -23,9 +23,10 @@ The following parameters can be specified
     - e.g.) us-west-1, ap-northeast-1
 - $5: CompatibilityVersion
     - 1 : Use mutual authentication
+    - 1 : Use Active Directory authentication
     - 2 : Use Federated authentication
-    - ? : Use Active Directory authentication
 - $6: FederatedAuthType
     - 0 : Use mutual authentication
+    - 0 : Use Active Directory authentication
     - 1 : Use Federated authentication
-    - ? : Use Active Directory authentication
+
