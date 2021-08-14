@@ -22,7 +22,7 @@
 # {LOGGED_IN_USER}/.config/AWSVPNClient/ConnectionProfiles
 #######################################
 
-# TODO(enpipi) : Checking the behavior when using Active Directory authentication.
+# TODO(enpipi) : Checking the behavior when using Active Directory authentication. (enhancement #1)
 VERSION='0.1.0'
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin
 
