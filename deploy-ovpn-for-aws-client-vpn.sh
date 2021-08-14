@@ -21,6 +21,8 @@
 # If you do not know the Arguments, please check the following file path.
 # {LOGGED_IN_USER}/.config/AWSVPNClient/ConnectionProfiles
 #######################################
+
+# TODO(enpipi) : Checking the behavior when using Active Directory authentication.
 VERSION='0.1.0'
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin
 
