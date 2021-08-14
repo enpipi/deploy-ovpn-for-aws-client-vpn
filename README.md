@@ -3,12 +3,13 @@ This is a script to distribute AWS VPN Client profiles using Jamf.
 
 ## Prerequisite
 - AWS VPN Client must be pre-installed.
+- Use Jamf Pro to distribute.
 
 ## Notes
 - It will be overwritten, not added. It is not possible to add or distribute multiple profiles to an existing environment.
 - I have not been able to test with "Active Directory authentication".
 - If you do not know the Arguments, please check the following file path.
-`# {LOGGED_IN_USER}/.config/AWSVPNClient/ConnectionProfiles`
+    - `{LOGGED_IN_USER}/.config/AWSVPNClient/ConnectionProfiles`
 
 ## Arguments
 The following parameters can be specified
