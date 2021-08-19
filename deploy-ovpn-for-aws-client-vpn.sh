@@ -12,12 +12,12 @@
 #       e.g.) ap-northeast-1
 #   $5: CompatibilityVersion
 #       1 : Use mutual authentication
+#         : Use Active Directory authentication
 #       2 : Use Federated authentication
-#       ? : Use Active Directory authentication
 #   $6: FederatedAuthType
 #       0 : Use mutual authentication
+#         : Use Active Directory authentication
 #       1 : Use Federated authentication
-#       ? : Use Active Directory authentication
 # If you do not know the Arguments, please check the following file path.
 # {LOGGED_IN_USER}/.config/AWSVPNClient/ConnectionProfiles
 #######################################
