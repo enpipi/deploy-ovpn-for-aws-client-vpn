@@ -24,9 +24,8 @@ The following parameters can be specified
 - $5: CompatibilityVersion
     - 1 : Use mutual authentication
     - 1 : Use Active Directory authentication
-    - 2 : Use Federated authentication
+    - 2 : Use Federated authentication (SAML)
 - $6: FederatedAuthType
     - 0 : Use mutual authentication
     - 0 : Use Active Directory authentication
-    - 1 : Use Federated authentication
-
+    - 1 : Use Federated authentication (SAML)
